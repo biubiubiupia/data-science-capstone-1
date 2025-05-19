@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.4.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="e3bcaad4-852c-4bcd-a802-7f9e16e09702" data-root-id="p1108" style="display: contents;"></div>
+  
+    <script type="application/json" id="c9bfed64-c4e9-4219-b0d2-7ce43167be91">
+      {"64de27ca-0045-4af9-823b-380f22351b4d":{"version":"3.4.3","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1108","attributes":{"width":950,"height":450,"x_range":{"type":"object","name":"FactorRange","id":"p1107","attributes":{"factors":[["Anxiety","While working"],["Anxiety","Instrumentalist"],["Anxiety","Composer"],["Anxiety","Exploratory"],["Anxiety","Foreign languages"],["Depression","While working"],["Depression","Instrumentalist"],["Depression","Composer"],["Depression","Exploratory"],["Depression","Foreign languages"],["Insomnia","While working"],["Insomnia","Instrumentalist"],["Insomnia","Composer"],["Insomnia","Exploratory"],["Insomnia","Foreign languages"],["OCD","While working"],["OCD","Instrumentalist"],["OCD","Composer"],["OCD","Exploratory"],["OCD","Foreign languages"]]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1110"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1118"},"y_scale":{"type":"object","name":"LinearScale","id":"p1119"},"title":{"type":"object","name":"Title","id":"p1111","attributes":{"text":"Differences in Habit Use Across Mental Health Symptoms"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1137","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1104","attributes":{"selected":{"type":"object","name":"Selection","id":"p1105","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1106"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAAAAAAAQAAAAIAAAADAAAABAAAAAAAAAABAAAAAgAAAAMAAAAEAAAAAAAAAAEAAAACAAAAAwAAAAQAAAA="},"shape":[20],"dtype":"int32","order":"little"}],["Metric",{"type":"ndarray","array":["Anxiety","Anxiety","Anxiety","Anxiety","Anxiety","Depression","Depression","Depression","Depression","Depression","Insomnia","Insomnia","Insomnia","Insomnia","Insomnia","OCD","OCD","OCD","OCD","OCD"],"shape":[20],"dtype":"object","order":"little"}],["Habit",{"type":"ndarray","array":["While working","Instrumentalist","Composer","Exploratory","Foreign languages","While working","Instrumentalist","Composer","Exploratory","Foreign languages","While working","Instrumentalist","Composer","Exploratory","Foreign languages","While working","Instrumentalist","Composer","Exploratory","Foreign languages"],"shape":[20],"dtype":"object","order":"little"}],["Difference",{"type":"ndarray","array":{"type":"bytes","data":"4D1F34l/lL9gYw2md6WqP9im5EfrZaE/oOnH1NKckb+IcrsFKRS/P0ADTyFDE5Q/8FpD7T3zkz88NSCLf+msP6CTFgHzdJ4/cI/8YPL6uz/o61uOwuCxP8D91KcxzLU/GN7JRi3sqT9gMXe5J3ChP0jfq/VMprA/QFcA3UGftD/4l4Vo2tyjP0Advcnl3IQ/4A2OUYCctj9APQoRKt2avw=="},"shape":[20],"dtype":"float64","order":"little"}],["x",{"type":"ndarray","array":[["Anxiety","While working"],["Anxiety","Instrumentalist"],["Anxiety","Composer"],["Anxiety","Exploratory"],["Anxiety","Foreign languages"],["Depression","While working"],["Depression","Instrumentalist"],["Depression","Composer"],["Depression","Exploratory"],["Depression","Foreign languages"],["Insomnia","While working"],["Insomnia","Instrumentalist"],["Insomnia","Composer"],["Insomnia","Exploratory"],["Insomnia","Foreign languages"],["OCD","While working"],["OCD","Instrumentalist"],["OCD","Composer"],["OCD","Exploratory"],["OCD","Foreign languages"]],"shape":[20],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1138","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1139"}}},"glyph":{"type":"object","name":"VBar","id":"p1134","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Difference"},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"x","transform":{"type":"object","name":"CategoricalColorMapper","id":"p1130","attributes":{"palette":["#f26843","#89AAE6","#1f191a","#ef4434","#C4DACF"],"factors":["While working","Instrumentalist","Composer","Exploratory","Foreign languages"],"start":1,"end":2}}}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1135","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Difference"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"x","transform":{"id":"p1130"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1136","attributes":{"x":{"type":"field","field":"x"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"Difference"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"x","transform":{"id":"p1130"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1117"},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p1125","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1126","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1127"},"axis_label":"High Scorers \u2013 Others","major_label_policy":{"type":"object","name":"AllLabels","id":"p1128"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1120","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1121"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1122"},"major_label_orientation":1.2,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1123"}}}],"center":[{"type":"object","name":"Grid","id":"p1124","attributes":{"axis":{"id":"p1120"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1129","attributes":{"dimension":1,"axis":{"id":"p1125"}}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('c9bfed64-c4e9-4219-b0d2-7ce43167be91').textContent;
+              const render_items = [{"docid":"64de27ca-0045-4af9-823b-380f22351b4d","roots":{"p1108":"e3bcaad4-852c-4bcd-a802-7f9e16e09702"},"root_ids":["p1108"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
