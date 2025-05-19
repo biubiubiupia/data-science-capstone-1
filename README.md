@@ -1,4 +1,4 @@
-###🎧 Is there a connection between listening to music while working and our mental health?###
+#🎧 Is there a connection between listening to music while working and our mental health?
 
 For my capstone project in Data Science, I analyzed the results of an online survey that explored the respondents' music listening habits and self-reported mental health symptoms.
 
